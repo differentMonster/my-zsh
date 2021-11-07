@@ -108,6 +108,7 @@ source "/home/monster/.config/zsh/zsh-functions"
 
 # Folder Extensions
 zsh_add_file "zsh-theme-setup"
+zsh_add_file "zsh-alias"
 
 # User configuration
 
@@ -134,7 +135,4 @@ zsh_add_file "zsh-theme-setup"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-alias postman="postman"
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
