@@ -1,0 +1,4 @@
+# Function to source files if they exist
+function zsh_add_file() {
+    [ -f "/home/monster/.config/zsh/$1" ] && source "/home/monster/.config/zsh/$1"
+}
