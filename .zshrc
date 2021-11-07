@@ -22,37 +22,15 @@ export ZSH="/root/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
-# VSC = Version Control System ( git )
-POWERLEVEL9K_VCS_CLEAN_FOREGROUND=017 #navyblue
-# Set color base once enter git master
-POWERLEVEL9K_VCS_CLEAN_BACKGROUND=mediumspringgreen
+# awesome font config work
+POWERLEVEL9K_MODE='awesome-fontconfig' # This is another way
+# awesome font config dont work on setup
+# POWERLEVEL9K_MODE='awesome-patched'
 
 # Bindkey
 # Movement
 bindkey '^[a' beginning-of-line
 bindkey '^[e' end-of-line
-
-
-# POWERLEVEL9K_MODE='awesome-patched'
-# POWERLEVEL9K_HOME_ICON="\uf015"
-
-POWERLEVEL9K_DIR_BACKGROUND='237'
-# POWERLEVEL9K_CUSTOM_GIT_PAIR="echo \$(sp)"
-# POWERLEVEL9K_CUSTOM_GIT_PAIR_BACKGROUND="clear"
-# POWERLEVEL9K_CUSTOM_GIT_PAIR_FOREGROUND="blue"
-# POWERLEVEL9K_CUSTOM_GIT_PAIR_ICON="\uf7af"
-
-# Dir background color
-# POWERLEVEL9K_DIR_DEFAULT_BACKGROUND="clear"
-
-# POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="012"
-# POWERLEVEL9K_DIR_FOREGROUND='010'
-# POWERLEVEL9K_DIR_HOME_BACKGROUND="clear"
-# POWERLEVEL9K_DIR_HOME_FOREGROUND="012"
-# POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND="clear"
-# POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="012"
-# POWERLEVEL9K_DIR_PATH_SEPARATOR="%F{008}/%F{cyan}"
-
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -129,7 +107,7 @@ source $ZSH/oh-my-zsh.sh
 source "/home/monster/.config/zsh/zsh-functions"
 
 # Folder Extensions
-zsh_add_file "zsh-icon"
+zsh_add_file "zsh-theme-setup"
 
 # User configuration
 
