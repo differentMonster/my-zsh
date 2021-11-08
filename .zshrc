@@ -101,6 +101,11 @@ zsh-completions
 #auto-notify
 you-should-use
 git-open
+copydir
+copyfile
+sudo
+copybuffer
+dirhistory
 )
 
 source $ZSH/oh-my-zsh.sh
