@@ -19,6 +19,12 @@ zsh-completions
 auto-notify
 you-should-use
 git-open
+copydir
+copyfile
+sudo
+copybuffer
+dirhistory
+history
 )
 
 # link zsh with oh my zsh ( should be automatic after set as main ternimal )
@@ -29,7 +35,11 @@ source $ZSH/oh-my-zsh.sh
 # Setup Theme for powerlevel9k
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
-# VSC = Version Control System ( git )
+# Step 4
+* create redirctive zsh folder to .config/zsh/plugins/.zshrc
+* github and plugins inside
+
+# VSC = Version Control System ( git **
 POWERLEVEL9K_VCS_CLEAN_FOREGROUND=017 #navyblue
 # Set color base once enter git master
 POWERLEVEL9K_VCS_CLEAN_BACKGROUND=red3
@@ -37,3 +47,7 @@ POWERLEVEL9K_VCS_CLEAN_BACKGROUND=red3
 # Cheatsheet
 dirs -v = fast directroy access location
 cat -v = test keypress
+
+## history
+h = list out all history command
+hs = hs docker ( search right name )

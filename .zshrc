@@ -106,6 +106,7 @@ copyfile
 sudo
 copybuffer
 dirhistory
+history
 )
 
 source $ZSH/oh-my-zsh.sh
