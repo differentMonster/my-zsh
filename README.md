@@ -49,5 +49,12 @@ dirs -v = fast directroy access location
 cat -v = test keypress
 
 ## history
-h = list out all history command
-hs = hs docker ( search right name )
+list out all history command
+```bash
+h
+```
+
+search "command name"
+```bash
+hs
+```
