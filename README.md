@@ -9,7 +9,7 @@
 ** path = /root/.oh-my-zsh
 ** customize file = .zshrc
 
-# add plugins into .zshrc after install on ternimal
+*** add plugins into .zshrc after install on ternimal
 plugins=(
 npm
 git
@@ -45,8 +45,15 @@ POWERLEVEL9K_VCS_CLEAN_FOREGROUND=017 #navyblue
 POWERLEVEL9K_VCS_CLEAN_BACKGROUND=red3
 
 # Cheatsheet
-dirs -v = fast directroy access location
-cat -v = test keypress
+fast directroy access location
+```bash
+dirs -v
+```
+
+test keypress
+```bash
+cat -v
+````
 
 ## history
 list out all history command
